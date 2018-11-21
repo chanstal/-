@@ -16,8 +16,8 @@ public class Main {
                 maxVal=n;
             }
         }
-        System.out.format("max=%.2f\n",maxVal);
-        System.out.format("min=%.2f\n",minVal);
+        System.out.printf("max=%.2f\n",maxVal);
+        System.out.printf("min=%.2f\n",minVal);
 
 
     }

@@ -6,9 +6,10 @@ public class Main {
         Scanner scn=new Scanner(System.in);
         int n=scn.nextInt();
         int sum=0,i=0;
-        while (sum<=n){
-            sum+=i;
+        while (sum<=n){   
             i++;
+            sum+=i;
+         
         }
         System.out.println(i-1);
     }
